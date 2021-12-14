@@ -25,7 +25,12 @@ body{
 header{
   background-image: linear-gradient(to top, var(--cor5), var(--cor2));
   padding-top: 20px;
-  height: 147px;
+  height: 170px;
+}
+
+nav{
+  position: absolute;
+  top: 167px;
 }
 
 nav a{
