@@ -2,19 +2,64 @@
 
 Alt + Shitf + a = <!--  -->
 Alt + Shift + Seta para baixo = Copiar linha
--------------------------------------------------------------
+Alt + Z = Quebra de linha automatica
+--------------------------------------------------------------------------
+<h1>Estrutura do Body</h1>
+
+<header> Cabeçalho</header>
+<nav>Naveção (menu)</nav>
+<main>Conteúdo Principal</main>
+<section>Seleção (escolheu notícias, esportes)</section>
+<article>Artigo</article>
+<aside>Sobre o artigo</aside>
+<footer>Rodapé</footer>
+--------------------------------------------------------------------------
+<h1>Comando Simples</h1>
+<style>
+  body{
+    display: inline-block;/* Na mesma linha mas config de block */
+    display: inline; /* Na mesma linha */
+    display: block; /* Config de block */
+    /* -------------------------------------------------------------------------- */
+    height: 100px; /* Altura */
+    width: 100px; /* Largura */
+  }
+</style>
+--------------------------------------------------------------------------
+<h1>F O N T S</h1>
+
+<style>
+  body{
+    @font-face {
+      font-family: 'Work Sans' ;
+      src: url(aula/fonts/worksans.tff);
+    }
+    text-align: center; /* Centraliza o texto */
+    font-weight: bold; /* Peso da font */
+    font-size: 16px, 3em; /* Tamanho */
+    font-family: Arial, Helvetica; /* Fonte */
+    text-shadow: 1px 1px 2px black; /* Sombra no texto */
+    /*<strong> negrito  or <b> negrito sem semântica */
+    /*<em>  itálico  or <i>  itálico sem semântica */
+    /*<abbr> explica uma abreviação ou text.*/
+  }
+</style>
+--------------------------------------------------------------------------
 <h1>ShortHend</h1>
 
 <style>
 body{
   border: 1px solid black;
  /* Tamanho > tipo > Cor */
+  font: italic bolder 30px 'Work Sans';
+  /* Style > peso > tamanho > fonte */
+  text-shadow: 1px 1px 2px black;
+    /* Height > width > borrar > cor  */
 }
 
 </style>
 
 --------------------------------------------------------------------------
-
 <h1>Adicionar Imagem de Fundo</h1>
 
 <style>
@@ -26,3 +71,31 @@ body{
   }
   
 </style>
+--------------------------------------------------------------------------
+<h1>L i n k s</h1>
+
+<a href="www.facebook.com" target="_blank" rel="external">Click aqui/a>
+  <!-- href= url / target= abrir em nova aba ou não / rel= explicação para o google --> 
+  <!-- Tipos de target: _blank (nova aba) / _self (mesma aba) -->
+  <!-- Tipos de rel: next (próxima aba) / external (fora do site) -->
+<style>
+
+  a{
+    text-decoration: none;
+  }
+
+  a:visited{ /* Se já visitado */
+    color: blueviolet;
+  }
+
+  a:hover{/* Interação com o mause */
+    color: black;
+    text-decoration: underline;
+  }
+
+  a:active{/* Quando já clickado */
+    color: darkblue;
+  }
+
+</style>
+--------------------------------------------------------------------------
