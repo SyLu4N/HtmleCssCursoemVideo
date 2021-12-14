@@ -25,11 +25,7 @@ body{
 header{
   background-image: linear-gradient(to top, var(--cor5), var(--cor2));
   padding-top: 20px;
-  height: 150px;
-}
-
-nav{
-  margin-top: 35px;
+  height: 147px;
 }
 
 nav a{
@@ -41,8 +37,8 @@ nav a{
 }
 
 nav a:hover{
-  background-color: var(--cor4);
-  padding: 10px 10px 4px 10px;
+  background-image: linear-gradient(to bottom, #063d10, var(--cor4));
+  padding: 10px 10px 4px 13px;
   border-radius: 7px 7px 0 0;
 }
 
