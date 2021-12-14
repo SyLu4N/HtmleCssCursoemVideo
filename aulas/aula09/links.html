@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links</title>
+  <style>
+    a{
+      color: rgb(93, 92, 94);
+    }
+    a:visited{
+      color: rgb(0, 0, 0);
+    }
+    a:hover{
+      text-decoration: none;
+    }
+
+    a::before{
+      content: '☛ ';
+    }
+
+    a::after{
+      content: ' ☚';
+    }
+
+
+  </style>
+</head>
+<body>
+  <h1>Personalizando Links</h1>
+  <ul>
+    <li><a href="https://www.netflix.com/br/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fbrowse" target="_blank" rel="external">Netflix</a></li>
+    <li><a href="https://www.youtube.com/" target="_blank"rel="external">Canal do Youtube</a></li>
+    <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank"rel="external">Site do Curso em Video</a></li>
+  </ul>
+  
+</body>
+</html>

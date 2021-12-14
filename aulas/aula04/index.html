@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Imagem Dinamica</h1>
+  <p>Testando tamanhos aumentando e diminuindo o zoom</p>
+  <picture>
+    <source media="(max-width:750px)" srcset="midia/p.png">
+    <source media="(max-width:1050px)" srcset="midia/M.png">
+    <img src="midia/G.png" alt="Imagem">
+  </picture>
+
+  
+  <h1>Reproduzindo Audio</h1>
+  <p>Vamos reproduzir audios e midias</p>
+  <!--<audio src="midia/Emergency On Level 3 - Jeremy Korpas.mp3"></audio>
+  -->
+
+  <audio preload="metadata" controls loop>
+
+    <source src="midia/Emergency On Level 3 - Jeremy Korpas.mp3" type="audio/mpeg">
+    <p>Seu computador não é compatível</p>
+
+  </audio>
+  <h1>Videos em HTML5</h1>
+  <!--<video src="midia/JOGADOR DE LOL JOGA DURANTE 9400 HORAS E ESSE É O RESULTADO...mp4" width="600" controls></video>-->
+  <video width="500" poster="midia/league.jpg" controls>
+    <source src="midia/JOGADOR DE LOL JOGA DURANTE 9400 HORAS E ESSE É O RESULTADO...mp4" type="">
+
+
+  </video>
+
+</body>
+</html>
