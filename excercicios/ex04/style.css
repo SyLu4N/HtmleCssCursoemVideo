@@ -29,8 +29,7 @@ header{
 }
 
 nav{
-  position: absolute;
-  top: 167px;
+  padding-top: 23px;
 }
 
 nav a{
