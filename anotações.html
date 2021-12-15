@@ -23,6 +23,9 @@ Alt + Z = Quebra de linha automatica
     /* -------------------------------------------------------------------------- */
     height: 100px; /* Altura */
     width: 100px; /* Largura */
+    /* -------------------------------------------------------------------------- */
+    padding: 10px; /* Espaço Interno */
+    margin: 20px; /* Espaço Externo */
   }
 </style>
 --------------------------------------------------------------------------
@@ -30,6 +33,7 @@ Alt + Z = Quebra de linha automatica
 
 <style>
   body{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
     @font-face {
       font-family: 'Work Sans' ;
       src: url(aula/fonts/worksans.tff);
@@ -39,9 +43,11 @@ Alt + Z = Quebra de linha automatica
     font-size: 16px, 3em; /* Tamanho */
     font-family: Arial, Helvetica; /* Fonte */
     text-shadow: 1px 1px 2px black; /* Sombra no texto */
+    text-indent: 3px; /* Indentação do texto */
     /*<strong> negrito  or <b> negrito sem semântica */
     /*<em>  itálico  or <i>  itálico sem semântica */
     /*<abbr> explica uma abreviação ou text.*/
+    /* <span> para destaque. */
   }
 </style>
 --------------------------------------------------------------------------
@@ -54,17 +60,25 @@ body{
   font: italic bolder 30px 'Work Sans';
   /* Style > peso > tamanho > fonte */
   text-shadow: 1px 1px 2px black;
-    /* Height > width > borrar > cor  */
+  /* Height > width > borrar > cor  */
+  padding: 10px 10px 10px 10px;
+  /* topo > direita > baixo > Esquerda */
+  margin: 10px 10px 10px 10px;
+  /* topo > direita > baixo > Esquerda */
 }
 
 </style>
 
 --------------------------------------------------------------------------
-<h1>Adicionar Imagem de Fundo</h1>
+<h1>Background</h1>
 
 <style>
 
-  h2{
+  h2{ /* Degrade de fundo */
+    background-image: linear-gradient(to top, blue, red);
+  }
+
+  h2{ /* Imagem de fundo */
     background-image: url('../aula22/imgs/pattern001.png');
     width: 100px;
     height: 100px;
@@ -99,3 +113,17 @@ body{
 
 </style>
 --------------------------------------------------------------------------
+<h1>SIMBOLOGIA</h1>
+
+<p>ID em CSS vira #</p>
+<p>Class em CSS vira .</p>
+<p>Pseudo-Class em CSS vira :</p>
+<p>Pseudo-Element em CSS vira ::</p>
+<p>Filho em CSS vira > </p>
+
+
+--------------------------------------------------------------------------
+<h1> OUTROS </h1>
+
+<!-- Box ocupa a linha inteira e sempre pula uma linha quando conjurado-->
+<!-- Inline Ocupa a mesma linha e não ocupa a linha toda -->
