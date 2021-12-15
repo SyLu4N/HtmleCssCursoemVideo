@@ -26,6 +26,31 @@ Alt + Z = Quebra de linha automatica
     /* -------------------------------------------------------------------------- */
     padding: 10px; /* Espaço Interno */
     margin: 20px; /* Espaço Externo */
+    /* -------------------------------------------------------------------------- */
+    border-radius: 10px; /* Arredondar as bordas */
+    box-shadow: 10px 10px 10px black; /* sombra em forma de caixa */
+    /* Lado > Baixo > Borrar > Cor */
+    /* -------------------------------------------------------------------------- */
+    max-width: 100px; /* responsividade */
+    min-width: 500px;
+
+    max-height: 200px;
+    min-height: 100px;
+    /* -------------------------------------------------------------------------- */
+    width: 100%; /* Ocupa 100% do espaço. Serve para imagens */
+    /* -------------------------------------------------------------------------- */
+    transition-duration: 2s; /* Tempo para o acontecido/animação */
+    /* -------------------------------------------------------------------------- */
+    *{ /* zerar padding e margin geral */
+      margin: 0px;
+      padding: 0px;
+    }
+    /* -------------------------------------------------------------------------- */
+    :root{ /* Acesso a config rápidas */
+      --corescura: #a53f3f;
+      --fontpadrao: 'Arial';
+    }
+  /* -------------------------------------------------------------------------- */
   }
 </style>
 --------------------------------------------------------------------------
@@ -38,16 +63,23 @@ Alt + Z = Quebra de linha automatica
       font-family: 'Work Sans' ;
       src: url(aula/fonts/worksans.tff);
     }
+    h1{
     text-align: center; /* Centraliza o texto */
     font-weight: bold; /* Peso da font */
-    font-size: 16px, 3em; /* Tamanho */
-    font-family: Arial, Helvetica; /* Fonte */
+    /* lighter > normal > bold > bolder ou 100,200,300... */
+    font-size: 16px; /* Tamanho */
+    /* px > rem > em > cm > mm > pt ... */
+    font-family: 'Arial, Helvetica'; /* Fonte */
     text-shadow: 1px 1px 2px black; /* Sombra no texto */
+    /* Height > width > borrar > cor  */
     text-indent: 3px; /* Indentação do texto */
-    /*<strong> negrito  or <b> negrito sem semântica */
-    /*<em>  itálico  or <i>  itálico sem semântica */
-    /*<abbr> explica uma abreviação ou text.*/
-    /* <span> para destaque. */
+    line-height: 1em; /* altura que o texto ocupa */
+    letter-spacing: 2px; /* Espaçamento do text */
+    <strong> negrito  or <b> /*negrito sem semântica*/
+    <em> itálico  or <i> /*itálico sem semântica*/
+    <abbr> /*explica uma abreviação ou text.*/
+    <span> /*para destaque.*/
+    }
   }
 </style>
 --------------------------------------------------------------------------
@@ -65,6 +97,8 @@ body{
   /* topo > direita > baixo > Esquerda */
   margin: 10px 10px 10px 10px;
   /* topo > direita > baixo > Esquerda */
+  box-shadow: 10px 10px 10px black; 
+  /* Lado > Baixo > Borrar > Cor */
 }
 
 </style>
@@ -127,3 +161,8 @@ body{
 
 <!-- Box ocupa a linha inteira e sempre pula uma linha quando conjurado-->
 <!-- Inline Ocupa a mesma linha e não ocupa a linha toda -->
+<!-- Id só podemos um único por página -->
+<!-- Class podemos ilimitados por página -->
+<!-- Sempre quando definido height ou width, vira block -->
+<!-- Block usa <margin> -->
+<!-- Inline ou line usa <text-aling> -->
