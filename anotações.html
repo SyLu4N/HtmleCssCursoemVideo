@@ -17,40 +17,60 @@ Alt + Z = Quebra de linha automatica
 <h1>Comando Simples</h1>
 <style>
   body{
+    <hr> /* Linha horizontal */
+    <br> /* Quebra linha */
+    &lt /* < */ 
+    &gt /* > */
+
+    ::after or ::before{ /* after Depois > before Antes */
+      content: '»' ; /* Adiciona itens */ ;
+    }
+
+    u
+  }
+
+  body{
     display: inline-block;/* Na mesma linha mas config de block */
     display: inline; /* Na mesma linha */
     display: block; /* Config de block */
-    /* -------------------------------------------------------------------------- */
+
     height: 100px; /* Altura */
     width: 100px; /* Largura */
-    /* -------------------------------------------------------------------------- */
-    padding: 10px; /* Espaço Interno */
-    margin: 20px; /* Espaço Externo */
-    /* -------------------------------------------------------------------------- */
-    border-radius: 10px; /* Arredondar as bordas */
-    box-shadow: 10px 10px 10px black; /* sombra em forma de caixa */
-    /* Lado > Baixo > Borrar > Cor */
-    /* -------------------------------------------------------------------------- */
+
     max-width: 100px; /* responsividade */
     min-width: 500px;
 
     max-height: 200px;
     min-height: 100px;
-    /* -------------------------------------------------------------------------- */
+
+    height: 100vh; /* 100% da minha tela */
+    width: 100vh;
+
     width: 100%; /* Ocupa 100% do espaço. Serve para imagens */
-    /* -------------------------------------------------------------------------- */
-    transition-duration: 2s; /* Tempo para o acontecido/animação */
-    /* -------------------------------------------------------------------------- */
+
+    padding: 0px; /* Espaço Interno */
+    margin: 0px; /* Espaço Externo */
+
     *{ /* zerar padding e margin geral */
       margin: 0px;
       padding: 0px;
     }
-    /* -------------------------------------------------------------------------- */
+  }
+
+    body{
+    border: 1px dashed black;/* borda do conteudo */
+    /* tamanho > tipo > cor. Tipos = solid = linha > dashed = tracejado */
+    border-radius: 10px; /* Arredondar as bordas */
+    box-shadow: 10px 10px 10px black; /* sombra em forma de caixa */
+    /* Lado > Baixo > Borrar > Cor */
+
+    transition-duration: 2s; /* Tempo para  a animação */
+
     :root{ /* Acesso a config rápidas */
-      --corescura: #a53f3f;
+      --corescura: #3a0606;
       --fontpadrao: 'Arial';
     }
-  /* -------------------------------------------------------------------------- */
+
   }
 </style>
 --------------------------------------------------------------------------
@@ -64,14 +84,13 @@ Alt + Z = Quebra de linha automatica
       src: url(aula/fonts/worksans.tff);
     }
     h1{
+    text-transform: uppercase; /* MAIUSCULO */
+    text-transform: lowercase; /* minusculo */
     text-align: center; /* Centraliza o texto */
-    font-weight: bold; /* Peso da font */
-    /* lighter > normal > bold > bolder ou 100,200,300... */
-    font-size: 16px; /* Tamanho */
-    /* px > rem > em > cm > mm > pt ... */
+    font-weight: bold; /* Peso da font | lighter > normal > bold > bolder ou 100,200,300... */
+    font-size: 16px; /* Tamanho | px > rem > em > cm > mm > pt */
     font-family: 'Arial, Helvetica'; /* Fonte */
-    text-shadow: 1px 1px 2px black; /* Sombra no texto */
-    /* Height > width > borrar > cor  */
+    text-shadow: 1px 1px 2px black; /* Sombra no texto | Height > width > borrar > cor  */
     text-indent: 3px; /* Indentação do texto */
     line-height: 1em; /* altura que o texto ocupa */
     letter-spacing: 2px; /* Espaçamento do text */
@@ -102,20 +121,20 @@ body{
 }
 
 </style>
-
 --------------------------------------------------------------------------
 <h1>Background</h1>
 
 <style>
-
-  h2{ /* Degrade de fundo */
-    background-image: linear-gradient(to top, blue, red);
-  }
-
-  h2{ /* Imagem de fundo */
-    background-image: url('../aula22/imgs/pattern001.png');
-    width: 100px;
-    height: 100px;
+  body{
+    background-image: url();/* Imagem por caminho ou link */
+    background-size: 100px 100px; /* Tamanho da imagem de fundo */
+    /* largura > altura */
+    background-repeat: repeat;/* configura a repitação ou não da imagem */
+    /* repeat = repetir (padrão) > no-repeat = não repetir > repeat x = repetição horizontal > repeat y = repetição vertical */
+    background-position: left center; /* centralização da imagem */
+    background-attachment: fixed; /* Trava o fundo */
+    background-image: linear-gradient(to top, blue, red); /* Degrade */
+    /* Tipos: top > left > rigth > bottom */
   }
   
 </style>
@@ -154,9 +173,8 @@ body{
 <p>Pseudo-Class em CSS vira :</p>
 <p>Pseudo-Element em CSS vira ::</p>
 <p>Filho em CSS vira > </p>
-
-
 --------------------------------------------------------------------------
+
 <h1> OUTROS </h1>
 
 <!-- Box ocupa a linha inteira e sempre pula uma linha quando conjurado-->
@@ -166,3 +184,6 @@ body{
 <!-- Sempre quando definido height ou width, vira block -->
 <!-- Block usa <margin> -->
 <!-- Inline ou line usa <text-aling> -->
+<!-- @ = Regra  -->
+<!-- * = Config Global -->
+<!-- https://www.svgbackgrounds.com/ = imagem de fundo -->
