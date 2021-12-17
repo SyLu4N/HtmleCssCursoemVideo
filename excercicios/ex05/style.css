@@ -15,10 +15,6 @@
   margin: 0px;
 }
 
-html, body{
-  min-height: 100vh;
-}
-
 body{
   color: white;
   height: 100vh;
@@ -56,13 +52,14 @@ a:hover{
 }
 
 main p{
-  margin: 50px 0px 100px 0px;
   color: black;
   font-size: 3.5vw;
   font-family: var(--font3);
   line-height: 2em;
   padding-left: 30px ;
   max-width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #img01{
@@ -71,9 +68,11 @@ main p{
   background-size: cover;
   padding: 10vh 5vh;
   box-shadow: inset 3px 3px 20px 0px rgba(0, 0, 0, 0.664);
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-#text01, .normal{
+#text01{
   font-size: 3.5vw;
   max-width: 100%;
   background-color: rgba(0, 0, 0, 0.527);
@@ -89,6 +88,8 @@ main p{
   height:80%;
   padding: 10vh 5vh;
   box-shadow: inset 3px 3px 20px 0px rgba(0, 0, 0, 0.664);
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 #text02{
@@ -109,6 +110,7 @@ footer{
   font-family: var(--font1);
   font-weight: normal;
   font-style: normal;
+  margin-top: 50px;
 }
 
 footer a{
