@@ -11,8 +11,12 @@
 
 
 *{
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body{
+  min-height: 100vh;
 }
 
 body{
@@ -22,13 +26,12 @@ body{
 
 header{
   background-color: black;
-  height: 43vh ;
   text-align: center;
+  padding: 7.5vh;
 }
 
 header h1{
   font-family: var(--font2);
-  padding-top: 50px;
   font-size: 10vw;
   font-weight: bolder;
   font-variant: small-caps;
@@ -48,28 +51,68 @@ header p{
   font-size: 1em;
 }
 
-header a:hover{
+a:hover{
   text-decoration: underline;
 }
 
 main p{
-  margin-top: 63px;
+  margin: 50px 0px 100px 0px;
   color: black;
   font-size: 3.5vw;
   font-family: var(--font3);
   line-height: 2em;
   padding-left: 30px ;
-  max-width: 35%;
+  max-width: 50%;
 }
 
-#princ{
-  background-image: url(../ex05/img/background001.jpg);
-  background-attachment: fixed;
+#img01{
+  background: darkgreen url(../ex05/img/background001.jpg) right center no-repeat fixed;
+  height:80%;
+  background-size: cover;
+  padding: 10vh 5vh;
+  box-shadow: inset 3px 3px 20px 0px rgba(0, 0, 0, 0.664);
 }
 
-.cinza{
-  background-color: rgba(0, 0, 0, 0.363);
+#text01, .normal{
+  font-size: 3.5vw;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.527);
   color: white;
-  margin-left: 30px;
-  margin-top: 50px;
+  margin: 0px;
+  display: inline-block;
+  padding: 5px;
+}
+
+#img02{
+  background: white url(../ex05/img/background002.jpg) center center no-repeat fixed;
+  background-size: cover;
+  height:80%;
+  padding: 10vh 5vh;
+  box-shadow: inset 3px 3px 20px 0px rgba(0, 0, 0, 0.664);
+}
+
+#text02{
+  font-size: 3.5vw;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  margin: 0px;
+  display: inline-block;
+  padding: 5px;
+}
+
+footer{
+  color: white;
+  background-color: black;
+  padding: 10px;
+  text-align: center  ;
+  font-family: var(--font1);
+  font-weight: normal;
+  font-style: normal;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
 }
