@@ -63,10 +63,10 @@ main p{
 }
 
 #img01{
-  background: darkgreen url(../ex05/img/background001.jpg) top left no-repeat fixed;
+  background: darkgreen url(../ex05/img/background001.jpg) center center no-repeat fixed;
   height:80%;
   background-size: cover;
-  padding: 10vh 5vh;
+  padding: 10vh 4vh;
   box-shadow: inset 3px 3px 20px 0px rgba(0, 0, 0, 0.664);
   margin-bottom: 50px;
   margin-top: 50px;
