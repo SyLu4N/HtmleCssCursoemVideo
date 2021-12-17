@@ -118,6 +118,8 @@ body{
   /* topo > direita > baixo > Esquerda */
   box-shadow: 10px 10px 10px black; 
   /* Lado > Baixo > Borrar > Cor */
+  background: black url(imagem.png) center center no-repeat cover fixed;
+  /* Cor > tipo de fundo > posição > repetição > size(n pega) > attachment */
 }
 
 </style>
@@ -175,6 +177,30 @@ body{
 <p>Pseudo-Class em CSS vira :</p>
 <p>Pseudo-Element em CSS vira ::</p>
 <p>Filho em CSS vira > </p>
+--------------------------------------------------------------------------
+<h1>Centralizando uma box</h1>
+<style>
+  #container{
+    position: relative; /* Padrão */
+    height: 81.5vh;
+    padding: 50px;
+    background-image: url(../aula22img/imgs/target001.png);
+    background-color: purple;
+    background-size: 100% 100%;
+  }
+  #conteudo{
+    background-image: url(../aula22img/imgs/target001.png);
+    background-size: 100% 100%;
+    position: absolute;
+    background-color: yellow;
+    height: 200px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+</style>
+
 --------------------------------------------------------------------------
 
 <h1> OUTROS </h1>
