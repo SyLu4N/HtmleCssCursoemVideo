@@ -63,7 +63,7 @@ main p{
 }
 
 #img01{
-  background: darkgreen url(../ex05/img/background001.jpg) right center no-repeat fixed;
+  background: darkgreen url(../ex05/img/background001.jpg) top left no-repeat fixed;
   height:80%;
   background-size: cover;
   padding: 10vh 5vh;
