@@ -28,7 +28,7 @@ header{
 
 header h1{
   font-family: var(--font2);
-  font-size: 10vw;
+  font-size: 10vw ;
   font-weight: bolder;
   font-variant: small-caps;
 }
@@ -64,10 +64,9 @@ main p{
 
 #img01{
   background: darkgreen url(../ex05/img/background001.jpg) right center no-repeat fixed;
-  height:80%;
   background-size: cover;
   padding: 10vh 4vh;
-  box-shadow: inset 3px 3px 20px 0px rgba(0, 0, 0, 0.664);
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.664);
   margin-bottom: 50px;
   margin-top: 50px;
 }
@@ -85,9 +84,8 @@ main p{
 #img02{
   background: white url(../ex05/img/background002.jpg) center center no-repeat fixed;
   background-size: cover;
-  height:80%;
   padding: 10vh 5vh;
-  box-shadow: inset 3px 3px 20px 0px rgba(0, 0, 0, 0.664);
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.664);
   margin-bottom: 50px;
   margin-top: 50px;
 }
