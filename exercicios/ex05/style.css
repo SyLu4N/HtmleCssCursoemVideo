@@ -71,7 +71,7 @@ main p{
   margin-top: 50px;
 }
 
-#text01{
+.normal{
   font-size: 3.5vw;
   max-width: 100%;
   background-color: rgba(0, 0, 0, 0.527);
@@ -88,16 +88,6 @@ main p{
   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.664);
   margin-bottom: 50px;
   margin-top: 50px;
-}
-
-#text02{
-  font-size: 3.5vw;
-  max-width: 100%;
-  background-color: rgba(0, 0, 0, 0.527);
-  color: white;
-  margin: 0px;
-  display: inline-block;
-  padding: 5px;
 }
 
 footer{
