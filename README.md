@@ -23,9 +23,10 @@ Meu aprendizado no Curso em Video
 
 <h3>📚 Cordel Moderno</h3> 
  
- <a href="https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex05/index.html"><img src="./imgReadme/CordelModerno.gif" alt="Apresentação do Site"></a>
- Ferramentas usadas: Date / setInterval / functions
- <h2></h2>
- 
+ <div align="center">
+   <a href="https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex05/index.html"><img src="./imgReadme/CordelModerno.gif" alt="Apresentação do Site"></a>
+   <h2></h2>
+ </div>
+
 https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex03/index.html
 https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex04/index.html
