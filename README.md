@@ -21,6 +21,22 @@ Meu aprendizado no Curso em Video
 
 <h1>✅Projects</h1>
 
+ <h3>📚 Videos</h3> 
+
+ <div align="center">
+   <a href="https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex03/index.html"><img src="./imgReadme/Videos.gif" alt="Apresentação do Site"></a>
+   <h2></h2>
+ </div>
+
+  <h3>📚 Mascote do Android</h3> 
+
+  <div align="center">
+   <a href="
+    https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex04/index.html">
+    <img src="./imgReadme/android.gif" alt="Apresentação do Site"></a>
+   <h2></h2>
+ </div>
+
 <h3>📚 Cordel Moderno</h3> 
  
  <div align="center">
@@ -28,10 +44,4 @@ Meu aprendizado no Curso em Video
    <h2></h2>
  </div>
 
- <div align="center">
-   <a href="https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex03/index.html"><img src="./imgReadme/Videos.gif" alt="Apresentação do Site"></a>
-   <h2></h2>
- </div>
 
-
-https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex04/index.html
