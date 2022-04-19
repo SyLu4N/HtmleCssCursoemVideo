@@ -1,4 +1,4 @@
-Learning HTML and CSS
+###Learning HTML and CSS
 Meu aprendizado no Curso em Video
 
 ✓ Working With Syntax! <br>
@@ -19,7 +19,7 @@ Meu aprendizado no Curso em Video
 ✓ Working With Repeat! <br>
 ✓ Working With Keyframes! <br>
 
-✅Projects
+<h1>✅Projects</h1>
 
 https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex03/index.html
 https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex04/index.html
