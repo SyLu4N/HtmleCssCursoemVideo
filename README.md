@@ -1,4 +1,4 @@
-###Learning HTML and CSS
+## Learning HTML and CSS
 Meu aprendizado no Curso em Video
 
 ✓ Working With Syntax! <br>
