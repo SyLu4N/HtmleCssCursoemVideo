@@ -15,12 +15,17 @@
   margin: 0px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   color: white;
   height: 100vh;
 }
 
 header{
+  position: relative;
   background-color: black;
   text-align: center;
   padding: 7.5vh;
@@ -105,4 +110,10 @@ footer a{
   text-decoration: none;
   color: white;
   font-weight: 800;
+}
+
+.teste{
+  position: absolute;
+  background-color: white;
+  right: 0;
 }
