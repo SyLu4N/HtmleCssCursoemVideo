@@ -46,11 +46,11 @@ Meu aprendizado no Curso em Video
  <h3>✅ Certificate</h3>
 
   <p align="center">
-   <a href="https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex05/index.html"><img src="./imgReadme/modulo1.png" alt="Apresentação do Site"></a>
+   <a href="https://sylu4n.github.io/HtmleCssCursoemVideo/imgReadme/modulo1.png"><img src="./imgReadme/modulo1.png" alt="Apresentação do Site"></a>
  </p>
  <h2></h2>
   <p align="center">
-   <a href="https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex05/index.html"><img src="./imgReadme/modulo2.png" alt="Apresentação do Site"></a>
+   <a href="https://sylu4n.github.io/HtmleCssCursoemVideo/imgReadme/modulo2.png"><img src="./imgReadme/modulo2.png" alt="Apresentação do Site"></a>
  </p>
 
 
