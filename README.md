@@ -43,4 +43,12 @@ Meu aprendizado no Curso em Video
    <a href="https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex05/index.html"><img src="./imgReadme/CordelModerno.gif" alt="Apresentação do Site"></a>
  </p>
 
+ <h3>✅ Certificate</h3>
+
+  <p align="center">
+   <a href="https://sylu4n.github.io/HtmleCssCursoemVideo/exercicios/ex05/index.html"><img src="./imgReadme/modulo1" alt="Apresentação do Site"></a>
+ </p>
+
+
+
 
